@@ -1,0 +1,7 @@
+{
+    "jscodehints.detectedExclusions": [
+        "C:/wamp64/www/3rdeye/public/bower_components/AdminLTE/plugins/ckeditor/lang/is.js",
+        "C:/wamp64/www/3rdeye/public/bower_components/AdminLTE/plugins/ckeditor/lang/it.js",
+        "C:/wamp64/www/3rdeye/public/bower_components/AdminLTE/plugins/ckeditor/lang/hu.js"
+    ]
+}

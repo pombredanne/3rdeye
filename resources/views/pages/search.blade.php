@@ -163,7 +163,7 @@
                             <h4 class="modal-title">One more thing...</h4>
                           </div>
                           <div class="modal-body">
-                            <img src="http://3rdeye.co/images/3e.png" class="search-logo"/> <br />
+                            <img src="{{ url('/images/3e.png')}}" class="search-logo"/> <br />
                             <p class="search-question"><strong>PLEASE CHOOSE SEARCH MODE</strong> </p>
                             <br />
                             <input type="radio" name="searchmode" value="Universal" checked>&nbsp;&nbsp;&nbsp;Universal <span style="color: #500056">(This mode searches the entire repository)</span><br>

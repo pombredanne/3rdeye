@@ -13,7 +13,7 @@
 			<tr>
                <td style="width: 10%;"></td>
 			   <td style="width: 80%; padding-top: 40px; background-color: #eee; font-family: 'Raleway', sans-serif;">
-					<img src="http://localhost/3rdeye/public/images/3e.png" style="text-align: center; width: 160px; height: auto; display: block; margin:0 auto;"/>
+					<img src="{{url('images/3e.png')}}" style="text-align: center; width: 160px; height: auto; display: block; margin:0 auto;"/>
 					<br />
 					<h1 style="text-align: center; font-family: 'Montserrat', sans-serif; font-size: 60px; font-weight: lighter;">Plagiarism Report</h1>
 					<br />
@@ -36,7 +36,7 @@
 					<br /><br /><br /><br />
 					<a href="{{$pdflink}}">Click here </a> to view (or download) detailed report in PDF.
 					<br /><br />
-					<p style="font-size: 15px; color: white; background: black; text-align: center; padding: 10px; margin-bottom: -10px;"><a href="http://3rdeye.co" style="font-weight: bold; color: white; text-decoration: none;" >3rdeye</a> Copyright &copy; <?php echo date("Y"); ?></p>
+					<p style="font-size: 15px; color: white; background: black; text-align: center; padding: 10px; margin-bottom: -10px;"><a href="{{url('/')}}" style="font-weight: bold; color: white; text-decoration: none;" >3rdeye</a> Copyright &copy; <?php echo date("Y"); ?></p>
 					
 				</td>
 				<td style="width: 10%;"></td>

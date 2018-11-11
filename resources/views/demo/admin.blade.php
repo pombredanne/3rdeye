@@ -5,12 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>3rdEye | Demo</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-  <link type="text/css" rel="stylesheet" href="http://3rdeye.co/bower_components/AdminLTE/bootstrap/css/bootstrap.min.css">
-  <link type="text/css" rel="stylesheet" href="http://3rdeye.co/bower_components/AdminLTE/dist/css/w3.css">
-  <link type="text/css" rel="stylesheet" href="http://3rdeye.co/assets/css/font-awesome.min.css">
-  <link type="text/css" rel="stylesheet" href="http://3rdeye.co/bower_components/AdminLTE/dist/css/AdminLTE.min.css">
-  <link type="text/css" rel="stylesheet" href="http://3rdeye.co/bower_components/AdminLTE/dist/css/skins/skin-purple.min.css">
-  <script src="http://3rdeye.co/bower_components/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js" type="text/javascript"></script>
+  <link type="text/css" rel="stylesheet" href="{{url('/bower_components/AdminLTE/bootstrap/css/bootstrap.min.css')}}">
+  <link type="text/css" rel="stylesheet" href="{{url('/bower_components/AdminLTE/dist/css/w3.css')}}">
+  <link type="text/css" rel="stylesheet" href="{{url('/assets/css/font-awesome.min.css')}}">
+  <link type="text/css" rel="stylesheet" href="{{url('/bower_components/AdminLTE/dist/css/AdminLTE.min.css')}}">
+  <link type="text/css" rel="stylesheet" href="{{url('/bower_components/AdminLTE/dist/css/skins/skin-purple.min.css')}}">
+  <script src="{{url('/bower_components/AdminLTE/plugins/jQuery/jquery-2.2.3.min.js')}}" type="text/javascript"></script>
 </head>
 <body class="hold-transition skin-purple sidebar-mini">
 <div class="wrapper">
@@ -18,12 +18,12 @@
   <header class="main-header">
 
     <!-- Logo -->
-    <a href="http://3rdeye.co" class="logo">
+    <a href="{{url('/')}}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels 
       <span class="logo-mini"><b>3</b>RD</span>-->
-      <span class="logo-mini"><img src="http://localhost/3rdeye/public/images/3eye.PNG" style="width: 40px; height: auto;"/></span>
+      <span class="logo-mini"><img src="{{url('images/3eye.PNG')}}" style="width: 40px; height: auto;"/></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><span><img src="http://localhost/3rdeye/public/images/eyelogo.PNG" style="width: 140px; height: auto; margin-bottom: 10px;"/></span></span>
+      <span class="logo-lg"><span><img src="{{url('images/eyelogo.PNG')}}" style="width: 140px; height: auto; margin-bottom: 10px;"/></span></span>
       <!--<span class="logo-lg"><b>Admin</b>LTE</span>-->
     </a>
 
@@ -250,7 +250,7 @@
 
     <div class="w3-container row">
         <div class="col-md-8 pad-top">
-            <h2>REGISTER <a href="http://3rdeye.co/index#register">HERE</a> TO GAIN ACCESS TO MORE FEATURES</h2>
+            <h2>REGISTER <a href="{{url('index#register')}}">HERE</a> TO GAIN ACCESS TO MORE FEATURES</h2>
             <div class="w3-panel w3-card-2">
                 <p style="padding: 15px;" id="inputText">
                     {{$content}}

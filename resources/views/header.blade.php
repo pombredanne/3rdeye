@@ -4,9 +4,9 @@
     <a href="http://3rdeye.co" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels 
       <span class="logo-mini"><b>3</b>RD</span>-->
-      <span class="logo-mini"><img src="http://localhost/3rdeye/public/images/3eye.PNG" style="width: 40px; height: auto;"/></span>
+      <span class="logo-mini"><img src="{{url('/images/3eye.PNG')}}" style="width: 40px; height: auto;"/></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><span><img src="http://localhost/3rdeye/public/images/eyelogo.PNG" style="width: 140px; height: auto; margin-bottom: 10px;"/></span></span>
+      <span class="logo-lg"><span><img src="{{url('/images/eyelogo.PNG')}}" style="width: 140px; height: auto; margin-bottom: 10px;"/></span></span>
       <!--<span class="logo-lg"><b>Admin</b>LTE</span>-->
     </a>
 
@@ -32,7 +32,7 @@
                   <li>
                     <a href="#">
                       <div class="pull-left">
-                        <img src="http://localhost/3rdeye/public/bower_components/AdminLTE/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+                        <img src="{{ url('/bower_components/AdminLTE/dist/img/user2-160x160.jpg')}}" class="img-circle" alt="User Image">
                       </div>
                      <h4>
                         Support Team
@@ -104,14 +104,14 @@
             <!-- Menu Toggle Button -->
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <!-- The user image in the navbar-->
-              <img src="http://localhost/3rdeye/public/images/user.png" class="user-image" alt="User Image">
+              <img src="{{url('images/user.png')}}" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
               <span class="hidden-xs">Hello {{Auth::user()->name}} !</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
               <li class="user-header">
-                <img src="http://localhost/3rdeye/public/images/user.png" class="img-circle" alt="User Image">
+                <img src="{{url('images/user.png')}}" class="img-circle" alt="User Image">
 
                 <p>
                   {{Auth::user()->name}} - {{Auth::user()->type}}

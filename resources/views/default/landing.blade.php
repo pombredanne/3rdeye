@@ -37,12 +37,12 @@
 					<header id="header">
 						<!--<div class="logo">-->
 							<!--<span class="icon fa-eye"></span>-->
-							<span><img src="http://localhost/3rdeye/public/images/3eye.PNG" style="width: 140px; height: auto;"/></span>
+							<span><img src="{{url('images/3eye.PNG')}}" style="width: 140px; height: auto;"/></span>
 						<!--</div>-->
 						<div class="content">
 							<div class="inner">
 								<!--<h1>3rd Eye</h1>-->
-                                <span><img src="http://localhost/3rdeye/public/images/eyelogo.PNG" style="width: 200px; height: auto; margin-bottom: 10px;"/></span>
+                                <span><img src="{{url('images/eyelogo.PNG')}}" style="width: 200px; height: auto; margin-bottom: 10px;"/></span>
             
 								<p style="font-size: 20px; font-family: 'Raleway'; font-weight: lighter;"><!--A Document Matching tool used for local content Plagiarism Detection.-->
 									&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Plagiarism Detection Tool.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -63,7 +63,7 @@
 						</nav>
 					</header>
                 <section class="showlater" style="display: none;">
-                    <img id="preloader" src="http://3rdeye.co/images/preloader.gif"/><br />
+                    <img id="preloader" src="{{url('images/preloader.gif')}}"/><br />
                     <p class="bepatient">We are searching our repository for matches <br /> Please be patient</p>
         </section>
 

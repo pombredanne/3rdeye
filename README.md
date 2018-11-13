@@ -1,3 +1,5 @@
 # 3rdeye
 
-Plagiarism detection laravel application. Uses Aho-Corasick string matching algorithm
+Plagiarism detection Laravel application. Uses Aho-Corasick string matching algorithm.
+
+## Installation
